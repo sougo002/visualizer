@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "visualizer",
   "private": true,
   "sideEffects": false,
   "type": "module",
