@@ -8,11 +8,11 @@ import { join } from "node:path";
 installGlobals();
 
 export default defineConfig({
-  base: "/vite-base/",
+  base: "/visualizer/",
   plugins: [
     remix({
       ssr: false,
-      basename: "/vite-base/remix-base",
+      basename: "/visualizer/",
       buildEnd(args) {
         if (!args.viteConfig.isProduction) return;
         // NOTE: https://github.com/brookslybrand/remix-gh-pages/blob/ce5981bbdf29fa0c4adbdb1634f8ae05c6af9609/vite.config.ts#L16-L23
